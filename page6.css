@@ -1,0 +1,84 @@
+/* Background */
+body {
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Header */
+.main-header {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffb347 !important;
+}
+
+/* Payment Card Layout */
+.payment-card {
+    max-width: 650px;
+}
+
+/* Glass Card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    transition: 0.3s ease;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(255, 174, 66, 0.25);
+}
+
+/* Inputs */
+.form-control,
+.form-select,
+textarea {
+    background: rgba(255, 255, 255, 0.12);
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.form-control::placeholder {
+    color: #d4d4d4;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background: rgba(255, 255, 255, 0.18);
+    outline: none;
+    box-shadow: none;
+}
+
+/* Buttons */
+.btn-warning {
+    background-color: #ff8c00 !important;
+    border: none;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn-warning:hover {
+    background-color: #e67a00 !important;
+}
+
+/* Footer */
+.main-footer {
+    background: rgba(0,0,0,0.6);
+    margin-top: 60px;
+}
